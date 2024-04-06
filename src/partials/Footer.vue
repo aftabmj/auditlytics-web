@@ -33,77 +33,44 @@
         </div>
 
         <!-- 2nd block -->
-        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="text-xs text-slate-200 font-semibold uppercase underline mb-3">Products</h6>
+        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2 text-center">
+          <h6 class="text-xs text-slate-200 font-semibold uppercase underline mb-3">Location</h6>
           <ul class="text-sm space-y-2">
             <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Cube Manage</a>
-            </li>
+              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Wellington</a>
+            </li>    
             <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Cube Analyse</a>
-            </li>
-            <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Cube Launch</a>
-            </li>
-            <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Experimentation</a>
-            </li>
+              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">New Zealand</a>
+            </li>                     
           </ul>
         </div>
 
         <!-- 3rd block -->
-        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="text-xs text-slate-200 font-semibold uppercase underline mb-3">Resources</h6>
+        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2 text-center">
+          <h6 class="text-xs text-slate-200 font-semibold uppercase underline mb-3">Hours</h6>
           <ul class="text-sm space-y-2">
             <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Blog</a>
+              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Monday - Friday</a>
             </li>
             <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Cheat Sheet</a>
-            </li>
-            <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Channel Partners</a>
-            </li>
-            <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Affiliate Program</a>
-            </li>
+              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">9am - 5pm</a>
+            </li>              
           </ul>
         </div>
 
         <!-- 4th block -->
-        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="text-xs text-slate-200 font-semibold uppercase underline mb-3">Projects</h6>
+        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2 text-center">
+          <h6 class="text-xs text-slate-200 font-semibold uppercase underline mb-3">Contact</h6>
           <ul class="text-sm space-y-2">
             <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Session Recording</a>
+              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">mj@auditlytics.nz</a>
             </li>
             <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Feature Flags</a>
-            </li>
-            <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Heatmaps</a>
-            </li>
-            <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Correlation Analysis</a>
+              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">(+64) 22 498 6710</a>            
             </li>
           </ul>
         </div>
 
-        <!-- 5th block -->
-        <div class="sm:col-span-6 md:col-span-3 lg:col-span-2">
-          <h6 class="text-xs text-slate-200 font-semibold uppercase underline mb-3">Company</h6>
-          <ul class="text-sm space-y-2">
-            <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">About Us</a>
-            </li>
-            <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Our Story</a>
-            </li>
-            <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Work With Us</a>
-            </li>
-          </ul>
-        </div>
 
       </div>
 

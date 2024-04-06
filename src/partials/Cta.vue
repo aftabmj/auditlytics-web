@@ -14,7 +14,7 @@
 
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20" data-aos="fade-up">
-          <h2 class="h2 font-hkgrotesk">Join the most flexible user-centric platform for teams</h2>
+          <h3 class="h3 font-hkgrotesk">Meet Our Team Of Experts</h3>
         </div>
 
         <!-- Buttons -->
@@ -22,12 +22,9 @@
           <div class="max-w-xs mx-auto sm:max-w-none sm:inline-flex sm:justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <div data-aos="fade-up" data-aos-delay="100">
               <router-link class="btn text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group" to="/signup">
-                Get Started Free <span class="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                Get Started <span class="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
               </router-link>
-            </div>
-            <div data-aos="fade-up" data-aos-delay="200">
-              <a class="btn text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600 w-full shadow-sm" href="#0">Read Docs</a>
-            </div>
+            </div>   
           </div>
         </div>
 

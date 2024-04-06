@@ -1,57 +1,62 @@
 <template>
-  <section class="relative border-t border-slate-800">
-
-    <!-- Bg gradient: top -->
-    <div class="absolute top-0 left-0 right-0 bg-gradient-to-b from-slate-800 to-transparent opacity-25 h-[25rem] pointer-events-none -z-10" aria-hidden="true"></div>
-
-    <!-- Illustration -->
-    <div class="hidden lg:block absolute top-0 left-1/2 -translate-x-1/2 mt-40 pointer-events-none -z-10" aria-hidden="true">
-      <img src="../images/features-illustration-02.svg" class="max-w-none" width="1440" height="453" alt="Features 02 Illustration">
-    </div>
-
+  <section>
     <div class="max-w-6xl mx-auto px-4 sm:px-6">
-      <div class="py-12 md:py-20">
+      <div >
 
         <!-- Section header -->
-        <div class="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-          <h2 class="h2 font-hkgrotesk">Features to help you create your best designs</h2>
+        <div class="pb-12 md:pb-20  ">
+          <h2 class="h2 text-center font-hkgrotesk">Features</h2>
         </div>
 
-        <!-- Box -->
-        <div class="bg-slate-800 bg-opacity-60 rounded overflow-hidden">
-          <div class="flex flex-col md:flex-row items-end md:items-start md:justify-between lg:space-x-20">
-            <div class="md:min-w-[28rem] p-6 lg:p-10">
+        <!-- Columns -->
+        <div class="md:flex md:space-x-12 space-y-8 md:space-y-0">
 
-              <!-- Filters -->
-              <div class="mb-6 lg:mb-8">
-                <div class="flex flex-wrap -m-1.5">
-                  <button class="btn-sm px-3 py-1 shadow-sm rounded-full m-1.5" :class="category === '1' ? 'text-white bg-indigo-500' : 'text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600'" @click="category = '1'">Everyone</button>
-                  <button class="btn-sm px-3 py-1 shadow-sm rounded-full m-1.5" :class="category === '2' ? 'text-white bg-indigo-500' : 'text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600'" @click="category = '2'">Freelancers</button>
-                  <button class="btn-sm px-3 py-1 shadow-sm rounded-full m-1.5" :class="category === '3' ? 'text-white bg-indigo-500' : 'text-slate-300 bg-slate-700 hover:bg-slate-600 border-slate-600'" @click="category = '3'">Organizations</button>
-                </div>
-              </div>
+          <!-- Column -->
+          <div class="w-full md:w-1/2 space-y-8">
 
-              <!-- Content -->
-              <div>
-                <div v-show="category === '1'">
-                  <h3 class="h3 font-hkgrotesk mb-2">Kickstart your project with these tools</h3>
-                  <div class="text-lg text-slate-500">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt laborum.</div>
-                </div>
-                <div v-show="category === '2'">
-                  <h3 class="h3 font-hkgrotesk mb-2">Tech tools to kickstart freelance life</h3>
-                  <div class="text-lg text-slate-500">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt laborum.</div>
-                </div>
-                <div v-show="category === '3'">
-                  <h3 class="h3 font-hkgrotesk mb-2">Share your plan and clarify project risk</h3>
-                  <div class="text-lg text-slate-500">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur, excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt laborum.</div>
-                </div>
-              </div>
-
+            <!-- Item -->
+            <div class="space-y-2">
+              <h4 class="text-xl font-hkgrotesk font-medium">Security and Privacy</h4>
+              <p class="text-indigo-200">Our commitment to security and privacy in data analytics and risk management not only protects your valuable information but also empowers you with the assurance of transparent and reliable professional services.</p>
             </div>
 
-            <img src="../images/features-image.png" class="md:max-w-none" width="480" height="414" alt="Feature">
+            <!-- Item -->
+            <div class="space-y-2">
+              <h4 class="text-xl font-hkgrotesk font-medium">Customisation and Scalability</h4>
+              <p class="text-indigo-200">Offering bespoke solutions, we tailor our services to meet your unique needs, ensuring scalability and adaptability to enable seamless integration and growth with your business, ensuring that our solutions evolve as your business needs do.</p>
+            </div>
+
+            <!-- Item -->
+            <div class="space-y-2">
+              <h4 class="text-xl font-hkgrotesk font-medium">Increased Transparency</h4>
+              <p class="text-indigo-200">By prioritising increased transparency in our services, we provide clear, accessible insights into your processes, fostering trust and informed decision-making.</p>
+            </div>
 
           </div>
+
+          <!-- Column -->
+          <div class="w-full md:w-1/2 space-y-8">
+
+            <!-- Item -->
+            <div class="space-y-2">
+              <h4 class="text-xl font-hkgrotesk font-medium">Reduced Cost</h4>
+              <p class="text-indigo-200">Our streamlined operations and efficient methodologies enable us to offer high-quality at significantly reduced costs, passing on the savings directly to you without compromising on excellence.</p>
+            </div>
+
+            <!-- Item -->
+            <div class="space-y-2">
+              <h4 class="text-xl font-hkgrotesk font-medium">Training and Continuous Improvement</h4>
+              <p class="text-indigo-200">Our services extend beyond immediate solutions, offering comprehensive training for your employees to enhance their skills, fostering a culture of continuous learning and process improvement.</p>
+            </div>
+
+            <!-- Item -->
+            <div class="space-y-2">
+              <h4 class="text-xl font-hkgrotesk font-medium">Ongoing Support and Maintenance</h4>
+              <p class="text-indigo-200">Our commitment to your success includes ongoing support and maintenance of the analytics tools we provide, ensuring they continuously meet your evolving business needs and deliver optimal performance.</p>
+            </div>
+
+          </div>
+
         </div>
 
       </div>
@@ -61,11 +66,6 @@
 
 <script>
 export default {
-  name: 'Features02',
-  data: function () {
-    return {
-      category: '1'
-    }
-  },   
+  name: 'Feature02',
 }
 </script>

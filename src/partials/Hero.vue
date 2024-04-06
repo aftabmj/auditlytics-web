@@ -12,20 +12,20 @@
         <!-- Hero content -->
         <div class="max-w-3xl mx-auto ">
 
-          <h3 class="h3 font-hkgrotesk mb-2 text-center" data-aos="fade-up">Transforming Business Landscape through Data and Risk
+          <h3 class="h3 font-hkgrotesk mb-2 text-center text-indigo-100" >Transforming Business Landscape through Data and Risk
             Insights</h3>
 
         <div class="grid grid-cols-2 gap-4 my-10">
           <div >
             <ul class="list-none space-y-4" data-aos="fade-up" data-aos-delay="100">
               <li class="flex items-center">
-                      <svg class="w-3 h-3 fill-current text-yellow-300 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <svg class="w-3 h-3 fill-current text-indigo-400 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
                      <span>Gain strategic insights through data analytics and work towards increasing profitability and
                       transparency in your business operations.</span></li>
                     <li class="flex items-center"> 
-                      <svg class="w-3 h-3 fill-current text-yellow-400 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <svg class="w-3 h-3 fill-current text-indigo-400 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
                     <span>
@@ -33,7 +33,7 @@
                   </span>
                     </li>
                     <li class="flex items-center">
-                      <svg class="w-3 h-3 fill-current text-yellow-500 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                      <svg class="w-3 h-3 fill-current text-indigo-400 mr-3 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                       <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
                     <span>Customised & practical solutions in various aspects of data analytics, risk management, assurance and
@@ -50,9 +50,9 @@
                   class="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
               </router-link> -->
 
-              <router-link class="btn text-black bg-yellow-500 hover:bg-yellow-400 w-full shadow-sm group" to="/signup">
+              <router-link class="btn  bg-indigo-500 hover:bg-indigo-400 w-full shadow-sm group" to="/signup">
                 View All Services <span
-                  class="tracking-normal text-black group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                  class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
               </router-link>
             </div>
    

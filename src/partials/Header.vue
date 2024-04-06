@@ -7,7 +7,7 @@
         <div class="shrink-0 mr-4">
           <!-- Logo -->
           <router-link class="block" to="/" aria-label="Cruip">
-            <img  class="w-8 h-8"  src="../images/cropped-logo_shield.webp" />
+            <img class="w-8 h-8" src="../images/cropped-logo_shield.webp" />
             <!-- <svg class="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <linearGradient x1="0%" y1="32.443%" x2="104.18%" y2="50%" id="hlogo-a">
@@ -35,25 +35,15 @@
           <!-- Desktop sign in links -->
           <ul class="flex grow justify-end flex-wrap items-center">
             <li>
-              <router-link class="font-medium text-slate-200 hover:text-slate-300 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" to="/services">Services</router-link>
+              <router-link
+                class="font-medium text-indigo-200 hover:text-slate-300 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                to="/services">Services</router-link>
             </li>
-
-
-            <!-- <li>
-              <router-link class="font-medium text-slate-500 hover:text-slate-300 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" to="/signin">Sign in</router-link>
-            </li> -->
-            <li class="ml-3">
-
-              <router-link class="btn text-slate-800 bg-yellow-500 hover:bg-yellow-400 w-full shadow-sm group" to="/signup">
-                Contact Us <span
-                  class="tracking-normal text-slate-900 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-              </router-link>
-
-
-              <!-- <router-link class="btn-sm text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group" to="/signup">
-                Contact Us <span class="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
-              </router-link> -->
-            </li>
+            <li>
+              <router-link
+                class="font-medium text-indigo-200 hover:text-slate-300 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                to="/signup"> Contact Us </router-link>
+            </li>          
           </ul>
 
         </nav>
