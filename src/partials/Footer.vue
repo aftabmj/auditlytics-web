@@ -9,25 +9,9 @@
         <div class="sm:col-span-12 lg:col-span-2 lg:max-w-xs">
           <div class="mb-2">
             <!-- Logo -->
-            <router-link class="inline-flex" to="/" aria-label="Cruip">
-              <svg class="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                <defs>
-                  <linearGradient x1="0%" y1="32.443%" x2="104.18%" y2="50%" id="flogo-a">
-                    <stop stop-color="#FFF" stop-opacity=".299" offset="0%" />
-                    <stop stop-color="#7587E4" stop-opacity="0" offset="100%" />
-                  </linearGradient>
-                  <linearGradient x1="18.591%" y1="0%" x2="100%" y2="100%" id="flogo-b">
-                    <stop stop-color="#818CF8" offset="0%" />
-                    <stop stop-color="#C7D2FE" offset="100%" />
-                  </linearGradient>
-                </defs>
-                <g fill="none" fill-rule="evenodd">
-                  <path fill="#3730A3" d="M16 18.5V32l15.999-9.25V9.25z" />
-                  <path fill="#4F46E5" d="m0 23 16 9V18.501L0 9.251z" />
-                  <path fill-opacity=".64" fill="url(#flogo-a)" d="M16 13 0 23l16 9 16-9z" />
-                  <path fill="url(#flogo-b)" d="M16 0 0 9.25l16 9.25 15.999-9.25z" />
-                </g>
-              </svg>
+            <router-link class="inline-flex" to="/" aria-label="DataLytics">
+              <img class="w-36" src="../images/CAANZ_Logo.png" />
+
             </router-link>
           </div>
         </div>
@@ -37,10 +21,10 @@
           <h6 class="text-xs text-slate-200 font-semibold uppercase underline mb-3">Location</h6>
           <ul class="text-sm space-y-2">
             <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Wellington</a>
+              <a class="text-slate-400 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Wellington</a>
             </li>    
             <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">New Zealand</a>
+              <a class="text-slate-400 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">New Zealand</a>
             </li>                     
           </ul>
         </div>
@@ -50,10 +34,10 @@
           <h6 class="text-xs text-slate-200 font-semibold uppercase underline mb-3">Hours</h6>
           <ul class="text-sm space-y-2">
             <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Monday - Friday</a>
+              <a class="text-slate-400 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Monday - Friday</a>
             </li>
             <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">9am - 5pm</a>
+              <a class="text-slate-400 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">9am - 5pm</a>
             </li>              
           </ul>
         </div>
@@ -63,10 +47,10 @@
           <h6 class="text-xs text-slate-200 font-semibold uppercase underline mb-3">Contact</h6>
           <ul class="text-sm space-y-2">
             <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">mj@auditlytics.nz</a>
+              <a class="text-slate-400 hover:text-slate-100 transition duration-150 ease-in-out" href="#0">info@auditlytics.nz</a>
             </li>
             <li>
-              <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">(+64) 22 498 6710</a>            
+              <a class="text-slate-400 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">(+64) 22 498 6710</a>            
             </li>
           </ul>
         </div>
@@ -78,7 +62,7 @@
       <div class="md:flex md:items-center md:justify-between pb-4 md:pb-8">
 
         <!-- Social links -->
-        <ul class="flex mb-4 md:order-1 md:ml-4 md:mb-0">
+        <!-- <ul class="flex mb-4 md:order-1 md:ml-4 md:mb-0">
           <li>
             <a class="flex justify-center items-center text-indigo-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0" aria-label="Twitter">
               <svg class="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -100,12 +84,12 @@
               </svg>
             </a>
           </li>
-        </ul>
+        </ul> -->
 
         <!-- Links -->
-        <div class="text-sm text-slate-600">
-          <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Terms</a> · <a class="text-slate-500 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Privacy Policy</a>
-        </div>
+        <!-- <div class="text-sm text-slate-600">
+          <a class="text-slate-400 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Terms</a> · <a class="text-slate-400 hover:text-slate-300 transition duration-150 ease-in-out" href="#0">Privacy Policy</a>
+        </div> -->
 
       </div>
 

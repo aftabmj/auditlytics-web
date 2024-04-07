@@ -7,7 +7,8 @@
         <div class="shrink-0 mr-4">
           <!-- Logo -->
           <router-link class="block" to="/" aria-label="Cruip">
-            <img class="w-8 h-8" src="../images/cropped-logo_shield.webp" />
+            <img class="w-12" src="../images/logo2.png" />
+            <!-- <img class="w-12" src="../images/logo-whitestar.png" /> -->
             <!-- <svg class="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <linearGradient x1="0%" y1="32.443%" x2="104.18%" y2="50%" id="hlogo-a">
@@ -33,15 +34,27 @@
         <nav class="flex grow">
 
           <!-- Desktop sign in links -->
+        
           <ul class="flex grow justify-end flex-wrap items-center">
+          <!-- <li>  Services:  [</li> -->
             <li>
               <router-link
-                class="font-medium text-indigo-200 hover:text-slate-300 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
-                to="/services">Services</router-link>
+                class="font-medium text-indigo-200 hover:text-slate-300 px-1 lg:px-2 py-2 flex items-center transition duration-150 ease-in-out"
+                to="/servicesTech">Data & Technology</router-link>
             </li>
             <li>
               <router-link
-                class="font-medium text-indigo-200 hover:text-slate-300 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
+                class="font-medium text-indigo-200 hover:text-slate-300 px-1 lg:px-2 py-2 flex items-center transition duration-150 ease-in-out"
+                to="/servicesRisk">Risk</router-link>
+            </li>
+            <li>
+              <router-link
+                class="font-medium text-indigo-200 hover:text-slate-300 px-1 lg:px-2 py-2 flex items-center transition duration-150 ease-in-out"
+                to="/servicesAssurance">Assurance & IA</router-link> 
+            </li>               
+            <li>
+              <router-link
+                class="font-medium text-indigo-200 bg-indigo-900 hover:text-slate-300 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
                 to="/signup"> Contact Us </router-link>
             </li>          
           </ul>

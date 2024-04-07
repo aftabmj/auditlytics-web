@@ -9,8 +9,9 @@
           <!-- Site branding -->
           <div class="shrink-0 mr-4">
             <!-- Logo -->
-            <router-link class="block" to="/" aria-label="Cruip">
-              <svg class="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <router-link class="block" to="/" aria-label="DataLytics">
+              <img class="w-12" src="../images/logo2.png" />
+              <!-- <svg class="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <linearGradient x1="0%" y1="32.443%" x2="104.18%" y2="50%" id="hlogo-a">
                     <stop stop-color="#FFF" stop-opacity=".299" offset="0%" />
@@ -27,7 +28,7 @@
                   <path fill-opacity=".64" fill="url(#hlogo-a)" d="M16 13 0 23l16 9 16-9z" />
                   <path fill="url(#hlogo-b)" d="M16 0 0 9.25l16 9.25 15.999-9.25z" />
                 </g>
-              </svg>
+              </svg> -->
             </router-link>
           </div>
 
@@ -52,12 +53,12 @@
               <!-- Left side -->
               <div class="grow lg:mt-20 mb-12 lg:mb-0 flex flex-col items-center lg:items-start">
                 <!-- Avatars -->
-                <div class="flex -space-x-3 -ml-0.5 mb-6">
+                <!-- <div class="flex -space-x-3 -ml-0.5 mb-6">
                   <img class="rounded-full border-2 border-slate-900 box-content" src="../images/avatar-01.jpg" width="40" height="40" alt="Avatar 01" />
                   <img class="rounded-full border-2 border-slate-900 box-content" src="../images/avatar-02.jpg" width="40" height="40" alt="Avatar 02" />
                   <img class="rounded-full border-2 border-slate-900 box-content" src="../images/avatar-03.jpg" width="40" height="40" alt="Avatar 03" />
                   <img class="rounded-full border-2 border-slate-900 box-content" src="../images/avatar-04.jpg" width="40" height="40" alt="Avatar 04" />
-                </div>
+                </div> -->
                 <!-- Headline -->
                 <h1 class="h2 font-hkgrotesk mb-8 text-center lg:text-left">Interested in Learning More? </h1>
 
@@ -149,14 +150,20 @@
         </div>
 
       </section>
-
+     <!-- Site footer -->
+     <Footer />  
     </main>
 
   </div>
+   
 </template>
 
 <script>
+import Footer from '../partials/Footer.vue'
 export default {
   name: 'SignIn',
+  components: {
+    Footer,
+  }
 }
 </script>
