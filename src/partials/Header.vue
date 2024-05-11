@@ -51,7 +51,9 @@
               <router-link
                 class="font-medium text-indigo-200 hover:text-slate-300 px-1 lg:px-2 py-2 flex items-center transition duration-150 ease-in-out"
                 to="/servicesAssurance">Assurance & IA</router-link> 
-            </li>               
+            </li> 
+            <li> &nbsp;</li>       
+                   
             <li>
               <router-link
                 class="font-medium text-indigo-200 bg-indigo-900 hover:text-slate-300 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"

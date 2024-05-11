@@ -60,13 +60,18 @@
                   <img class="rounded-full border-2 border-slate-900 box-content" src="../images/avatar-04.jpg" width="40" height="40" alt="Avatar 04" />
                 </div> -->
                 <!-- Headline -->
-                <h1 class="h2 font-hkgrotesk mb-8 text-center lg:text-left">Interested in Learning More? </h1>
+                <h1 class="h3 font-hkgrotesk mb-8 text-center lg:text-left">Interested in Learning More? </h1>
 
-                <h2 class="h3 font-hkgrotesk mb-8 text-center lg:text-left">Get in Touch With Us!</h2>
-                <p class="font-semibold ">
+                <h2 class="h4 font-hkgrotesk mb-8 text-center lg:text-left">Get in Touch With Us!</h2>
+                <p class="h5 font-semibold">
                 We are ready to address your questions and explore ways we can support your business.
+                </p>
+                <p>&nbsp;</p>
+                <p class="h5 font-semibold">
+                  Please email us at <b><a href="mailto:info@auditlytics.nz">
+                    info@auditlytics.nz 
+                    </a></b> and we will be in touch.
 
-                Please complete the form and we will be in touch.
               </p>
                 <!-- List -->
                 <!-- <ul class="inline-flex flex-col text-lg text-slate-500 space-y-3">
@@ -91,16 +96,16 @@
                 </ul> -->
               </div>
 
-              <!-- Right side -->
+              <!-- Right side -- >
               <div class="relative w-full max-w-md mx-auto">
 
-                <!-- Bg gradient -->
+                <!- - Bg gradient -- >
                 <div class="absolute inset-0 opacity-40 bg-gradient-to-t from-transparent to-slate-800 -z-10" aria-hidden="true"></div>
 
                 <div class="p-6 md:p-8">
                   <div class="font-hkgrotesk text-xl font-bold mb-6">Let's talk</div>
 
-                  <!-- Form -->
+                  <!- - Form -- >
                   <form>
                     <div class="space-y-4">
                       <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
@@ -121,14 +126,6 @@
                         <label class="block text-sm text-slate-400 font-medium mb-1" for="phone">Phone </label>
                         <input id="phone" class="form-input text-sm py-2 w-full" type="text" required />
                       </div>
-                      <!-- <div>
-                        <label class="block text-sm text-slate-400 font-medium mb-1" for="referrer">How did you hear about us? <span class="text-rose-500">*</span></label>
-                        <select id="referrer" class="form-select py-2 w-full" required>
-                          <option>Google</option>
-                          <option>Medium</option>
-                          <option>GitHub</option>
-                        </select>
-                      </div> -->
                       <div>
                         <label class="block text-sm text-slate-400 font-medium mb-1" for="message">How can we help? </label>
                         <textarea id="message" class="form-textarea text-sm py-2 w-full" rows="4" required></textarea>
@@ -143,7 +140,7 @@
 
                 </div>
               </div>
-
+              <!- - Right side -->
             </div>
 
           </div>

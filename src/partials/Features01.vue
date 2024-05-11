@@ -43,15 +43,15 @@
       
 
               
-          <router-link class="btn flex justify-center my-3 p-1 text-md font-medium text-gray-200 shadow-sm group" to="/signup">
+          <router-link class="btn flex justify-center my-3 p-1 text-md font-medium text-gray-200 shadow-sm group" to="/servicesTech">
                 Read more <span
                   class="tracking-normal text-indigo-400  group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
               </router-link>
-              <router-link class="btn flex justify-center my-3 p-1 text-md font-medium text-gray-200  shadow-sm group" to="/signup">
+              <router-link class="btn flex justify-center my-3 p-1 text-md font-medium text-gray-200  shadow-sm group" to="/servicesRisk">
                 Read more <span
                   class="tracking-normal text-indigo-400 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
               </router-link>
-              <router-link class="btn flex justify-center my-3 p-1 text-md font-medium text-gray-200  shadow-sm group" to="/signup">
+              <router-link class="btn flex justify-center my-3 p-1 text-md font-medium text-gray-200  shadow-sm group" to="/servicesAssurance">
                 Read more <span
                   class="tracking-normal text-indigo-400 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
               </router-link>

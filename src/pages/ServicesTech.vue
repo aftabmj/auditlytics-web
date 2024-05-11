@@ -16,12 +16,12 @@
         </div>
         <div class="relative max-w-6xl mx-auto px-2 sm:px-6">
           <div class="pt-32 md:pt-28">
-
+            <h2 class="h3 font-bold text-center py-2">Data Management Services</h2>
             <div class="grid grid-cols-2 gap-4 "><!--grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">-->
               <div>
-                <h2 class="h3 font-bold text-center py-2">Data Management Services</h2>
+                
 
-                <div>
+                <div class="py-6">
                   <!-- <h3 class=" font-bold my-3">Data Analytics</h3> -->
                   <div class="flex items-center">
                     <svg class="w-3 h-3 fill-current text-emerald-500 mr-3 shrink-0" viewBox="0 0 12 12"
@@ -29,6 +29,7 @@
                       <path
                         d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                     </svg>
+           
                     <span>
                      <h5 class="font-bold">Data Analytics: Harness the Power of Data Insights</h5>
                     </span>
