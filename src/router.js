@@ -37,10 +37,10 @@ const router = createRouter({
       path: '/servicesAssurance',
       component: ServicesAssurance
     },          
-    {
-      path: '/signin',
-      component: SignIn
-    },
+    // {
+    //   path: '/signin',
+    //   component: SignIn
+    // },
     {
       path: '/signup',
       component: SignUp

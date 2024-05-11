@@ -16,8 +16,8 @@
       <!-- <Pricing /> -->
       <!-- <SingleTestimonial /> -->
       <!-- <Faqs /> -->
-      <Cta />
-
+      <!-- <Cta /> -->
+      <div class="py-10">&nbsp;</div>
     </main>
     
     <!-- Site footer -->

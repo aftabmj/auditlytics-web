@@ -68,9 +68,12 @@
                 </p>
                 <p>&nbsp;</p>
                 <p class="h5 font-semibold">
-                  Please email us at <b><a href="mailto:info@auditlytics.nz">
-                    info@auditlytics.nz 
-                    </a></b> and we will be in touch.
+                  Please email us at 
+                  <button class="btn  bg-gradient-to-r from-blue-400 to-red-300 hover:from-blue-400 hover:to-red-400 text-black" 
+                    href="mailto:info@auditlytics.nz">
+                      info@auditlytics.nz 
+                    </button> 
+                  and we will be in touch.
 
               </p>
                 <!-- List -->
