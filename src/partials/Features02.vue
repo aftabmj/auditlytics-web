@@ -5,7 +5,7 @@
 
         <!-- Section header -->
         <div class="pb-12 md:pb-20  ">
-          <h2 class="h2 text-center font-hkgrotesk">Features</h2>
+          <h3 class="h3 text-center font-hkgrotesk">Features</h3>
         </div>
 
         <!-- Columns -->
